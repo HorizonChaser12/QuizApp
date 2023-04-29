@@ -1,7 +1,7 @@
 # Quiz App
 
-Quiz App is a fun and educational mobile application designed to test your knowledge on various topics such as geography, history, and science. With an easy-to-use interface and a wide range of challenging questions, Quiz App is perfect for anyone looking to learn something new and have fun at the same time.
-As a user, you'll be presented with multiple choice questions and receive instant feedback on your answers. At the end of the quiz, you'll get a score based on your performance and have the option to restart or try a different quiz category.
+Quiz App made using Flutter with an easy-to-use interface and a wide range of challenging questions.
+As a user, you'll be presented with multiple choice questions and receive instant feedback on your answers. At the end of the quiz, you'll get a score based on your performance and have the option to restart or try a different quiz category.Implemented while working as Android Developer Intern in Oasis Infobytes .
 <hr>
 
 ![image](https://user-images.githubusercontent.com/78254378/235312904-63c35338-e82c-4157-8768-1d4e2d0eb7c5.png)
