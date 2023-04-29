@@ -16,30 +16,50 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favourite color?',
+      'questionText':
+          'Which one of the following river flows between Vindhyan and Satpura ranges?',
       'answers': [
-        {'text': 'Black', 'score': 5},
-        {'text': 'Green', 'score': 3},
-        {'text': 'Blue', 'score': 4},
-        {'text': 'Red', 'score': 8}
+        {'text': 'Narmada', 'score': 5},
+        {'text': 'Mahanadi', 'score': 0},
+        {'text': 'Tungabhadra', 'score': 0},
+        {'text': 'Netravati', 'score': 0}
       ]
     },
     {
-      'questionText': 'What\'s your favourite animal?',
+      'questionText': 'The country that has the highest in Barley Production?',
       'answers': [
-        {'text': 'Cat', 'score': 5},
-        {'text': 'Dog', 'score': 4},
-        {'text': 'Penguin', 'score': 3},
-        {'text': 'Panda', 'score': 2}
+        {'text': 'China', 'score': 0},
+        {'text': 'India', 'score': 0},
+        {'text': 'Russia', 'score': 5},
+        {'text': 'France', 'score': 0}
       ]
     },
     {
-      'questionText': 'Who\'s your favourite Teacher?',
+      'questionText': 'Who among the following wrote Sanskrit grammar?',
       'answers': [
-        {'text': 'Max', 'score': 1},
-        {'text': 'Youtube', 'score': 1},
-        {'text': 'Books', 'score': 1},
-        {'text': 'Google', 'score': 1}
+        {'text': 'Kalidasa', 'score': 0},
+        {'text': 'Charak', 'score': 0},
+        {'text': 'Panini', 'score': 5},
+        {'text': 'Aryabhatt', 'score': 0}
+      ]
+    },
+    {
+      'questionText': 'The hottest planet in the solar system?',
+      'answers': [
+        {'text': 'Mercury', 'score': 0},
+        {'text': 'Venus', 'score': 5},
+        {'text': 'Mars', 'score': 0},
+        {'text': 'Jupiter', 'score': 0}
+      ]
+    },
+    {
+      'questionText':
+          'Where was the electricity supply first introduced in India?',
+      'answers': [
+        {'text': 'Mumbai', 'score': 0},
+        {'text': 'Dehradun', 'score': 0},
+        {'text': 'Darjeeling', 'score': 5},
+        {'text': 'Chennai', 'score': 0}
       ]
     },
   ];

@@ -7,13 +7,15 @@ class Result extends StatelessWidget {
   Result(this.resultScore, this.resetHandler);
 
   String get resultPhrase {
-    var resultText = 'You did it!';
-    if (resultScore <= 8) {
-      resultText = 'You are awesome and innocent!';
-    } else if (resultScore <= 12) {
-      resultText = 'Pretty Likeable!';
-    } else if (resultScore <= 16) {
-      resultText = 'You are Strange!';
+    var resultText = 'You correctly answered 1 question!';
+    if (resultScore <= 10) {
+      resultText = 'You correctly answered 2 question!';
+    } else if (resultScore <= 15) {
+      resultText = 'You correctly answered 3 question!';
+    } else if (resultScore <= 20) {
+      resultText = 'You correctly answered 4 question!';
+    } else if (resultScore <= 25) {
+      resultText = 'You are a Genius!';
     } else {
       resultText = 'You are Bad!';
     }
